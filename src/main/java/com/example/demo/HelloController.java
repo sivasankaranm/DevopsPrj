@@ -14,7 +14,7 @@ public class HelloController {
 
 	@GetMapping(path="/hello",produces = "application/json")
 	public String getHello(){
-		return "Hello World!!";
+		return "Hello World! Test Docker";
 	}
 	
 }
